@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines how to configure osTicket and go over a few terms we can see in the workforce.<br />
+This procedure outlines how to configure osTicket and go over a few examples we can see in the workforce.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -18,15 +18,15 @@ This tutorial outlines how to configure osTicket and go over a few terms we can 
 
 <h2>osTicket Admin Panel Configuration Lab</h2>
 
-Now that we have installed osTicket and accessed the admin panel time to configure it !
+We have installed osTicket and have access to the admin controls, let's set it up
 
 If by chance you don't have osTicket installed, here is my link to install [osTicket installation lab](https://github.com/MarioJrodas/osticket-prereqs).
 
 1. Log into the Admin Panel
-Log in with your admin account first. Once logged in, click on the Admin Panel. You will notice many additional options appear.
+Log in to your admin account. After logging in, click on the Admin Panel. You will notice other options appear.
 
 2. Create Roles and Groups
-We will begin by creating roles that define different access levels for different groups. Groups are used to assign permissions to different people.
+Start by creating roles that give different access levels for different groups. Groups help give acces to the agents in each group.
 
 Create a Role:
 
@@ -38,14 +38,14 @@ Create a Group:
 
 Go to Admin Panel / Manage / Groups.
 
-Create a group called System Admins and assign the System Admins role to this group.
+Create a group called SYS Admin and assign the System Admins role to this group.
 
 3. Create a Department
-Next, let's create a department for system admins.
+let's create a department for system admins.
 
 Go to Admin Panel / Manage / Departments.
 
-Create a new department called Sys Admins.
+Create a new department called SYS Admins.
 
 4. Create a Team
 Teams allow you to pull agents from different departments into one team.
@@ -55,7 +55,7 @@ Go to Admin Panel / Manage / Teams.
 Create a team called Warriors.
 
 5. Adjust Ticket Registration Settings
-For this lab, we want everyone to be able to register tickets.
+ We want everyone to be able to register tickets.
 
 Go to Admin Panel / Settings / Users.
 
@@ -84,7 +84,7 @@ Role: Support (view access only)
 
 Team: Warriors
 
-Make sure to record the email addresses for these agents, as they will be required for login.
+Have a record of the email addresses for these agents, so they we can log into them.
 
 7. Create a User
 Now, let's create a user for ticket submission.
@@ -95,14 +95,14 @@ Navigate to Users and click Add New User.
 
 Create a user with the name Lebron James (for this lab, we’ll create just one user).
 
-8. Configure SLA (Service Level Agreements)
+8. Set up SLA (Service Level Agreements)
 SLAs are used to notify agents how quickly a ticket should be handled.
 
 Go to Admin Panel / Manage / SLA.
 
 Create the following 3 SLAs:
 
-SEV-A: Critical – needs immediate attention
+SEV-A: Critical – HIGH PRIOTITY!!!!
 
 SEV-B: Medium priority
 
@@ -115,9 +115,9 @@ Go to Admin Panel / Manage / Help Topics.
 
 Create the following Help Topics:
 
-Personal Computer (with the sub-topic Report a Problem)
+Personal Computer - log in issue
 
-Equipment Request (with the sub-topic General Inquiry)
+Equipment Request - Power cables
 
 
 
