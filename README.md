@@ -22,11 +22,9 @@ We have installed osTicket and have access to the admin controls, let's set it u
 
 If by chance you don't have osTicket installed, here is my link to install [osTicket installation lab](https://github.com/MarioJrodas/osticket-prereqs).
 
-1. Log into the Admin Panel
-Log in to your admin account. After logging in, click on the Admin Panel. You will notice other options appear.
+1. Log in to your admin account, click on the Admin Panel. You will notice other options appear.
 
-2. Create Roles and Groups
-Start by creating roles that give different access levels for different groups. Groups help give acces to the agents in each group.
+2. Create roles that give different access levels for different groups. Groups help give acces to the agents in each group.
 
 Create a Role:
 
@@ -40,15 +38,14 @@ Go to Admin Panel / Manage / Groups.
 
 Create a group called SYS Admin and assign the System Admins role to this group.
 
-3. Create a Department
-let's create a department for system admins.
+3. Create a Department for system admins.
 
 Go to Admin Panel / Manage / Departments.
 
 Create a new department called SYS Admins.
 
 4. Create a Team
-Teams allow you to pull agents from different departments into one team.
+Teams allow you to pull agents from different departments into certain teams.
 
 Go to Admin Panel / Manage / Teams.
 
@@ -68,17 +65,13 @@ Go to Admin Panel / Manage / Agents.
 
 Click on Agents and add a new agent.
 
-Agent 1:
-
-Name: Stephen Curry
+Agent 1: Stephen Curry
 
 Role: Superior Admin (full access)
 
 Team: Warriors
 
-Agent 2:
-
-Name: Kevin Durant
+Agent 2: Kevin Durant
 
 Role: Support (view access only)
 
@@ -87,13 +80,13 @@ Team: Warriors
 Have a record of the email addresses for these agents, so they we can log into them.
 
 7. Create a User
-Now, let's create a user for ticket submission.
+Let's create a user for ticket submission.
 
 Go to the top-right corner and click on Agent Panel.
 
 Navigate to Users and click Add New User.
 
-Create a user with the name Lebron James (for this lab, we’ll create just one user).
+Create a user with the name Lebron James 
 
 8. Set up SLA (Service Level Agreements)
 SLAs are used to notify agents how quickly a ticket should be handled.
@@ -109,7 +102,7 @@ SEV-B: Medium priority
 SEV-C: Low priority
 
 9. Create Help Topics
-Help Topics guide users when they create tickets, directing them toward the correct category.
+Help Topics guide users when they create tickets, taking them toward the correct category.
 
 Go to Admin Panel / Manage / Help Topics.
 
